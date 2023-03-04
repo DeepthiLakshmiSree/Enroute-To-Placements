@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+.logo-contsiner{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+.logo-name{
+    color: #000;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.span{
+    color: #16a085;
+}
+.nav-items-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-item{
+    color: #696a6d;
+    font-family: "roboto";
+    font-weight: 500;
+    font-size: 22px;
+    text-decoration: none;
+    outline: none;
+    margin-right: 18px;
+}
+.nav-item:hover{
+    color: #16a085;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.section1-heading{
+    color: #595555;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 48px;
+}
+.section-des{
+    color: #8e9699;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.form-heading{
+    color: rgb(130, 248, 80);
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 34px;
+}
+
+
+
+.login-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form{
+    background-color: #fff;
+    padding: 30px;
+}
+.login-heading{
+    color: #232426;
+    font-family: "roboto";
+    font-weight: 600;
+    font-size: 30px;
+}
+input{
+    margin-top: 10px;
+}

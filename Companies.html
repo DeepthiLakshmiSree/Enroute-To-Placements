@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ETP | Companies</title>
+    <link rel="icon" type="image/png" href="image\logo1.png" style="height: 200px">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Center the loader */
+        #loader {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          z-index: 1;
+          width: 120px;
+          height: 120px;
+          margin: -76px 0 0 -76px;
+          border: 16px solid #f3f3f3;
+          border-radius: 50%;
+          border-top: 16px solid #3498db;
+          -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+          0% { -webkit-transform: rotate(0deg); }
+          100% { -webkit-transform: rotate(360deg); }
+        }
+        
+        @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+        }
+        
+        /* Add animation to "page content" */
+        .animate-bottom {
+          position: relative;
+          -webkit-animation-name: animatebottom;
+          -webkit-animation-duration: 1s;
+          animation-name: animatebottom;
+          animation-duration: 1s
+        }
+        
+        @-webkit-keyframes animatebottom {
+          from { bottom:-100px; opacity:0 } 
+          to { bottom:0px; opacity:1 }
+        }
+        
+        @keyframes animatebottom { 
+          from{ bottom:-100px; opacity:0 } 
+          to{ bottom:0; opacity:1 }
+        }
+        
+        #myDiv {
+          display: none;
+          text-align: center;
+        }
+        </style>
+
+</head>
+<!-- header section starts  -->
+<body onload="myFunction()" style="margin:0;">
+
+    <div id="loader"></div>
+    
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+   <header class="header">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="image\logo1.png" class="logo-img" />
+    <h1 class="title"><i>Enroute to placements</i></h1>
+   
+   
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <!--<nav class="navbar">
+        <a href="#home">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;home</a>
+        <a href="#about">&nbsp;&nbsp;&nbsp;&nbsp;about</a>
+        <a href="#review">&nbsp;&nbsp;&nbsp;&nbsp;review</a>
+        <a href="#blogs">&nbsp;&nbsp;&nbsp;&nbsp;blogs</a>
+    </nav>-->
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<section class="services" id="services">
+
+    <h1 class="heading"><span>COMPANIES</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <a class="imagescom" href="#"><img src="\image\tcs.jpg" width="100px" height="100px" id="img1"/></a>
+            <h3>TCS</h3>
+            <a href="TCS.html" target="_blank" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="imagescom"></a><img src="\image\wipro.png" width="100px" height="100px" id="img1"/>
+            <h3>WIPRO</h3>
+            <a href="Wipro.html" target="_blank" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="imagescom"></a><img src="\image\capgemini.png" width="100px" height="100px" id="img1"/>
+            <h3>CAPGEMINI</h3>
+            <a href="Capgemini.html" class="btn" target="_blank"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <div class="box">
+            <a href="#" class="imagescom"><img src="\image\infosys.svg" width="100px" height="100px" id="img1" />
+            <h3>INFOSYS</h3>
+            <a href="Infosys.html" class="btn" target="_blank"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+        <div class="box">
+          <a href="#" class="imagescom"><img src="image\zenq.jpg" width="100px" height="100px" id="img1" />
+          <h3>ZenQ</h3>
+          <a href="ZenQ.html" class="btn" target="_blank"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+       </div>
+        <div class="box">
+            <a href="#" class="imagescom"></a><img src="\image\microsoft.png" width="100px" height="100px" id="img1" />
+            <h3>MICROSOFT</h3>
+            <a href="Microsoft.html" class="btn" target="_blank">ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+        <div class="box">
+            <a href="#" class="imagescom"></a><img src="\image\google.png" width="100px" height="100px" id="img1"/>
+            <h3>GOOGLE</h3>
+            <a href="Google.html" class="btn" target="_blank"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+        <div class="box">
+            <a href="#" class="imagescom"></a><img src="\image\apple.png" width="100px" height="100px" id="img1"/>
+            <h3>APPLE</h3>
+            <a href="Apple.html" class="btn" target="_blank"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+        </div>
+
+        <br>
+        <br>
+
+        <details>
+            <summary class="btn">More...</summary>
+            <br>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\hp.png" width="100px" height="100px" id="img1"/>
+                <h3>HP</h3>
+                <a href="Hp.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box" style="display: block;">
+                <a href="#" class="imagescom"></a><img src="\image\Accenture.png" width="100px" height="100px" id="img1"/>
+                <h3>ACCENTURE</h3>
+                <a href="Accenture.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\Amazon.jpg" width="100px" height="100px" id="img1"/>
+                <h3>AMAZON</h3>
+                <a href="Amazon.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\Flipkart.png" width="100px" height="100px" id="img1"/>
+                <h3>FLIPkART</h3>
+                <a href="Flipkart.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\Dell.png" width="100px" height="100px" id="img1"/>
+                <h3>DELL</h3>
+                <a href="Dell.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\HCL.png" width="100px" height="100px" id="img1"/>
+                <h3>HCL</h3>
+                <a href="Hcl.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\tech mahindra.webp" width="100px" height="100px" id="img1"/>
+                <h3>TECH MAHINDRA</h3>
+                <a href="Techmahindra.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\cisco.jpg" width="100px" height="100px" id="img1"/>
+                <h3>CISCO</h3>
+                <a href="Cisco.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\Deloitte.png" width="100px" height="100px" id="img1"/>
+                <h3>Deloitte</h3>
+                <a href="Deloitte.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\Absolute.png" width="100px" height="100px" id="img1"/>
+                <h3>Absolute</h3>
+                <a href="Absolute.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\adobe.png" width="100px" height="100px" id="img1"/>
+                <h3>ADOBE</h3>
+                <a href="Adobe.html" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\asian paints.jpg" width="100px" height="100px" id="img1"/>
+                <h3>ASIAN PAINTS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\autodesk.jpg" width="100px" height="100px" id="img1"/>
+                <h3>AUTODESK</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Cadence.png" width="100px" height="100px" id="img1"/>
+                <h3>CADENCE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Celestica.png" width="100px" height="100px" id="img1"/>
+                <h3>CELESTICA</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Clarivate.png" width="100px" height="100px" id="img1"/>
+                <h3>CLARIVATE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\cloudflare.png" width="100px" height="100px" id="img1"/>
+                <h3>CLOUDFLARE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="\image\code42.png" width="100px" height="100px" id="img1"/>
+                <h3>CODE42</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\cvent.gif" width="100px" height="100px" id="img1"/>
+                <h3>CVENT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Cyient.jpg" width="100px" height="100px" id="img1"/>
+                <h3>CYIENT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\dropbox.png" width="100px" height="100px" id="img1"/>
+                <h3>DROPBOX</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\DXC.png" width="100px" height="100px" id="img1"/>
+                <h3>DXC TECHNOLOGIES</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Facebook.png" width="100px" height="100px" id="img1"/>
+                <h3>FACEBOOK</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\first meridian.png" width="100px" height="100px" id="img1"/>
+                <h3>FIRST MERIDIAN</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\fresh works.png" width="100px" height="100px" id="img1"/>
+                <h3>FRESHWORKS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Gainsight.png" width="100px" height="100px" id="img1"/>
+                <h3>GAINSIGHT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\genpact.png" width="100px" height="100px" id="img1"/>
+                <h3>GENPACT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\globant.jpg" width="100px" height="100px" id="img1"/>
+                <h3>GLOBANT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\grammarly.png" width="100px" height="100px" id="img1"/>
+                <h3>GRAMMARLY</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\hexaware.png" width="100px" height="100px" id="img1"/>
+                <h3>HEXAWARE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\IFS.png" width="100px" height="100px" id="img1"/>
+                <h3>IFS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\infytq.png" width="100px" height="100px" id="img1"/>
+                <h3>INFYTQ</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\intel.png" width="100px" height="100px" id="img1"/>
+                <h3>INTEL</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\l & t infotech.jpg" width="100px" height="100px" id="img1"/>
+                <h3>L&T INFOTECH</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\legato.png" width="100px" height="100px" id="img1"/>
+                <h3>LEGATO</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\microns.png" width="100px" height="100px" id="img1"/>
+                <h3>MICRONS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\mindtree.jpg" width="100px" height="100px" id="img1"/>
+                <h3>MINDTREE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\mountblue.png" width="100px" height="100px" id="img1"/>
+                <h3>MOUNTBLUE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\mphasis.png" width="100px" height="100px" id="img1"/>
+                <h3>MPHASIS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\nintex.png" width="100px" height="100px" id="img1"/>
+                <h3>NINTEX</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\pax8.jpg" width="100px" height="100px" id="img1"/>
+                <h3>PAX8</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\prompt cloud.png" width="100px" height="100px" id="img1"/>
+                <h3>PROMPT CLOUD</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\revature.png" width="100px" height="100px" id="img1"/>
+                <h3>REVATURE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\salesforce.png" width="100px" height="100px" id="img1"/>
+                <h3>SALESFORCE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\secure works.png" width="100px" height="100px" id="img1"/>
+                <h3>SECUREWORKS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\sendinblue.png" width="100px" height="100px" id="img1"/>
+                <h3>SENDINBLUE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\ServiceNow.png" width="100px" height="100px" id="img1"/>
+                <h3>SERVICENOW</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\shopify.png" width="100px" height="100px" id="img1"/>
+                <h3>SHOPIFY</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\siemens.png" width="100px" height="100px" id="img1"/>
+                <h3>SIEMENS</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Synchrony.png" width="100px" height="100px" id="img1"/>
+                <h3>SYNCHRONY</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\talend.png" width="100px" height="100px" id="img1"/>
+                <h3>TALEND</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Tata-Elxsi.jpg" width="100px" height="100px" id="img1"/>
+                <h3>TATA-ELXSI</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Thinkitive.png" width="100px" height="100px" id="img1"/>
+                <h3>THINKITIVE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\uber.webp" width="100px" height="100px" id="img1"/>
+                <h3>UBER</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\value creed.jpg" width="100px" height="100px" id="img1"/>
+                <h3>VALUECREED</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\Viasat.png" width="100px" height="100px" id="img1"/>
+                <h3>VIASAT</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\vm ware.png" width="100px" height="100px" id="img1"/>
+                <h3>VM WARE</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+            <br>
+            <div class="box">
+                <a href="#" class="imagescom"></a><img src="C:\Users\sravani janardhan\Desktop\Placement Website\image\zoho.jpeg" width="100px" height="100px" id="img1"/>
+                <h3>ZOHO</h3>
+                <a href="#" class="btn"> ABOUT <span class="fas fa-chevron-right"></span> </a>
+            </div>
+
+        </details>
+    </div>
+</section>
+<script>
+    var myVar;
+    
+    function myFunction() {
+      myVar = setTimeout(showPage, 1500);
+    }
+    
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+    </script>
